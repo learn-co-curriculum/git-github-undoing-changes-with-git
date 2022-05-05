@@ -1,4 +1,4 @@
-# Viewing the Git History and Undoing Changes
+# Undoing Changes with Git
 
 ## Learning Goals
 
@@ -258,7 +258,7 @@ Once you run `git revert`, the reverted changes will no longer be in your
 working directory, but, if you change your mind, you can still get them back
 through your Git history.
 
-Exercise:
+## Exercise
 
 1. Add and commit the list with the day 3 birds one more time.
 2. Run `git log` to confirm that the commit has been made.
