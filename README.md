@@ -242,8 +242,8 @@ $ git revert <SHA>
 If you're reverting the most recent commit, you can use `HEAD` in place of the
 SHA.
 
-Git creates a default commit title (`"Revert <commit message>"`) and message
-(`"This reverts commit <SHA>"`) when you use the `revert` command. Before the
+When you use the `revert` command, Git creates a default commit title (`"Revert
+<commit message>"`) and message (`"This reverts commit <SHA>"`). Before the
 commit completes, it opens a file in the Git command line text editor that
 contains the default message so you can edit it if you choose. Edit it however
 you like, then save and close the file to complete the commit or, to use the
