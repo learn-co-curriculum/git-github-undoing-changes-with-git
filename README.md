@@ -34,8 +34,6 @@ However, `git checkout` is most often used for one of two purposes: checking out
 branches (which we will talk about in the next set of lessons) and checking out
 specific commits, for example to restore our code to an earlier state.
 
-[git-checkout]: https://git-scm.com/docs/git-checkout
-
 In both of these cases, we're simply pointing the HEAD to a different version of
 our code. However, because the two cases have very different purposes, the use
 of the same command for both can be confusing. As a result, in version 2.23, Git
@@ -279,6 +277,7 @@ make a mistake or change your mind. Git can be a powerful tool for recovering
 from these situations. It's important to have an understanding of the things
 Git allows you to do so you know how to access the information when you need it.
 
+[git-checkout]: https://git-scm.com/docs/git-checkout
 [git-restore]: https://git-scm.com/docs/git-restore
 [git-reset]: https://git-scm.com/docs/git-reset
 [git-revert]: https://git-scm.com/docs/git-revert
